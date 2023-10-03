@@ -1,0 +1,15 @@
+<div>
+  <div>
+    <input type="text" [(ngModel)]="title" [value]="title" />
+    <app-add [title]="title" (addEvent)="add($event)"></app-add>
+  </div>
+  <div>
+    <div *ngFor="let todo of todos['todos'];
+    let i = index;
+    " class="todos">
+      <h2 [style]="'text-decoration: ' + (todo.check ? 'line-through' : '')  ">{{ todo.title }}</h2>
+      <input type="checkbox" [checked]="todo.check" (click)="toggleCheck(i)"/>
+      <button (click)="deleteTodo(i)">Del</button>
+    </div>
+  </div>
+</div>
