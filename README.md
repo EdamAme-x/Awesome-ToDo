@@ -10,3 +10,4 @@ If you can add, disable, or delete a ToDo, it's OK!
 - Vue : Created by [@EdamAme-x](https://github.com/EdamAme-x)
 - Solid : Created by [@EdamAme-x](https://github.com/EdamAme-x)
 - Svelte : Created by [@EdamAme-x](https://github.com/EdamAme-x)
+- Lit : Created by [@EdamAme-x](https://github.com/EdamAme-x)
